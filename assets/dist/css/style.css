@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Prata&display=swap');
+
+h1, .square p{
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+    font-size: 5em;
+        padding-top: 20px;
+    text-align: center;
+}
+
+h2 span{
+	font-family: 'Prata', serif;
+	text-align: center;
+	width: 100%;
+	font-size: 1.1em;
+	font-weight: 600;	
+}
+
+
+.greenpride{
+	color:#0097A4;
+}
+.orangepride{
+	color: #F47325;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+p.choose {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.square {
+    background-color: #0097A4;
+    border-radius: 15px;
+    color: #fff;
+    max-width: 490px;
+    margin: 0 auto;
+}
+
+.square p {
+    font-size: 3em;
+}
+
+.square p.price {
+    font-size: 8em;
+    margin-top: -5%;
+    padding-left: 17%;
+    line-height: 120px;
+}
+
+.square p.price sup{
+    font-size: 1em;
+}
+.square p.price sup {
+    font-size: 0.45em;
+    top: -1em;
+}
+.square p.price sub {
+    font-size: 0.45em;
+    
+}
+.square p.price sub {
+    font-size: 0.45em;
+    left: -70px;
+    bottom: -0.0005em;
+}
+
+.monthly ul.pay , .annual  ul.pay{
+    list-style: none;
+    font-size: 2.3em;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px;
+    line-height: 1.2em;
+}
+
+.monthly  ul.pay li:before, .annual  ul.pay li:before {
+  content: '✓';
+  color: #F47325;
+}
+
+.monthly ul.features, .annual ul.features{
+	list-style: none;
+}
+
+.monthly ul.features li, .annual ul.features li {
+    background-color: #A0A1A5;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    margin: 0 20px 15px 20px;
+    font-weight: 600;
+}
+
+.features input[type="checkbox"] {
+    transform: scale(2);
+    float: left;
+    margin-left: -35px;
+    margin-top: 11px;
+}
+ .features img {
+    /* transform: scale(2); */
+    width: 40px;
+    float: left;
+    margin-left: -55px;
+    margin-top: -2px;
+}
+.annual ul.features li.washed{
+	background-color: #C7C8CA;
+}
+
+.choose label.form-check-label {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.choose input#exampleRadios1 , .choose input#exampleRadios2 {
+    transform: scale(2.0);
+    top: 8px;
+}
+
+
+.gray {
+    background-color: #C5C6C8;
+}
+.blue{
+	background-color: #0097A4;
+	color: #fff;
+	border-radius: 5px;
+}
+.gray p, .blue p {
+    margin-bottom: 0px;
+}
+.gray input,.blue input{
+	width: 100%;
+}
+
+.gray input.form-check-input, .blue input.form-check-input{
+	width: auto;
+	transform: scale(2);
+	margin-right: 5px;
+}
+span.oswald{
+	font-family: 'Oswald', sans-serif;
+	color: #F47325;
+}
+
+.gray .switch{
+	padding-left: 11px;
+}
+.gray .switch:before, .gray .switch:after{
+	transform: scale(2);
+}
+
+button.big {
+    width: 100%;
+    background-color: #F47325;
+    border: 1px solid #F47325;
+    border-radius: 50px;
+    font-size: 2em;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #0097a4;
+    background-color: #0097a4;
+}
