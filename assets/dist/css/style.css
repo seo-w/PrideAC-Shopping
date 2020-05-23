@@ -192,4 +192,8 @@ button.big {
     border-radius: 15px;
     margin-top: -40px;
 }
+@media screen and (max-width: 770px){
+	.monthly{
+		padding-bottom: 30px;
+	}
 }
