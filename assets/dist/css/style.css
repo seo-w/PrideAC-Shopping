@@ -27,6 +27,10 @@ h2 span{
 
 .container {
     max-width: 1200px !important;
+        width: 100%;
+    overflow: hidden;
+        padding-bottom: 4em;
+
 }
 p.choose {
     font-size: 2.5em;
@@ -167,10 +171,25 @@ button.big {
     position: absolute;
     margin-left: -15px;
     margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
     border-color: #0097a4;
     background-color: #0097a4;
+}
+.monthly,.annual {
+    transition: all 0.5s;
+}
+.monthly:hover, .annual:hover {
+    transform: scale(1.001);
+    transition: all 0.5s;
+    background-color: #f3f4f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin-top: -40px;
+}
 }
